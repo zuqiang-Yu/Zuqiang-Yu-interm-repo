@@ -13,3 +13,10 @@ When clicked, the panel stays on top of all other windows. I assumed it might be
 ![drop down menu](../Screenshot/menu_bar_icon_unavailable.png)
 but it only works in windowed mode![window mode](../Screenshot/window_mode_drop_menu.png) - when switching to a full-screen app, the panel disappears entirely. ![full mode](../Screenshot/full_screen_mode_drop_menu.png) 
 This made me unsure about the intended use case for this feature. A short tooltip or description next to the pin button would go a long way in helping users understand when and why they should use it.
+
+## 3. Missing units and input range guidance
+
+When logging sleep duration in the Day Plan, no unit is shown — I had to guess it was in hours. 
+Similarly, when logging Energy Level and Mood, there is no indication of the expected range (e.g. out of 5, 10, or 100), 
+![mood range](../Screenshot/self_score_range.png)
+as shown in the screenshot above. For users logging these for the first time, this ambiguity makes it unclear what a valid or meaningful input looks like. Adding a unit label (e.g. "hrs") next to the sleep input, and a range hint (e.g. "1–10") below the Energy and Mood fields, would make the experience much clearer.

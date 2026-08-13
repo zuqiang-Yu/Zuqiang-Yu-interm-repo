@@ -47,3 +47,5 @@ rather than having multiple tasks half-done at once.
 Priority ordering in the Backlog would be particularly valuable for my workflow — I would always know which tasks need to be completed first and which are less urgent and can be deferred,
 allowing me to allocate my time to what matters most and keep overall progress on track.
 
+# Identify one way you can improve task tracking in your role.
+I think it's worth spending 10 to 15 minutes each week reviewing: Which tasks are always being postponed? Which tasks took longer than expected? The total amount of completed tasks. This way, I will have a more accurate estimate for my next task tracking

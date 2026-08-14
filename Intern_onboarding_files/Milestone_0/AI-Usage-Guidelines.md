@@ -1,0 +1,76 @@
+# AI Usage Guidelines
+
+---
+
+## Research & Learn
+
+### AI tools typically used for a Developer role
+
+- **GitHub Copilot** — AI code completion and suggestion directly in the editor
+- **ChatGPT / Claude** — used for explaining concepts, debugging, writing documentation, and brainstorming solutions
+
+
+### Benefits and risks of using AI in a professional setting
+
+**Benefits:**
+- Speeds up repetitive tasks like boilerplate code, documentation, and test writing
+- Helps debug unfamiliar errors by explaining stack traces and suggesting fixes
+- Reduces time spent on research by summarising documentation and concepts
+
+**Risks:**
+- AI can generate plausible but incorrect code — bugs may not be obvious at first glance
+- Risk of leaking confidential data if internal code or user data is pasted into public AI tools
+- AI-generated code may introduce security vulnerabilities or licence issues
+- Outputs can be biased or outdated depending on the model's training data
+
+### Types of information that should never be entered into AI tools
+
+Based on Focus Bear's Privacy Policy, the following categories of data are collected and protected — and must **never** be entered into external AI tools:
+
+- **User identification data** — emails, phone numbers (PII)
+- **Health/special category data** — ADHD status or any health-related information users share in the app
+- **Habit and lifestyle data** — Focus Bear notes that habit data is **double encrypted** so only users can see it; this must never leave the secure environment
+- **Financial data** — payment details processed via Stripe/Paddle
+- **API keys, credentials, and secrets** — any tokens or environment variables in the codebase
+- **Proprietary source code** — especially code containing unreleased features or internal business logic
+
+
+
+### How to fact-check and validate AI-generated content
+
+- **Test code before merging** — run AI-generated code locally, write tests, and verify edge cases
+- **Cross-reference with official documentation** — don't rely solely on AI explanations; check the source docs
+- **Peer review** — have a teammate review AI-assisted PRs just as they would human-written code
+- **Check for security issues** — AI may suggest libraries with known CVEs; always verify
+- **Ask the AI to explain its reasoning** — if you can't follow the explanation, the output may not be trustworthy
+
+---
+
+## Reflection
+
+### When should I use AI, and when should I rely on my own skills?
+
+**Use AI for:**
+- Generating boilerplate or repetitive code (e.g., setting up a new component structure)
+- Explaining error messages or unfamiliar libraries
+- Writing first drafts of documentation or PR descriptions
+- Brainstorming approaches to a problem before deciding on one
+
+**Rely on my own skills for:**
+- Core logic and architectural decisions — I need to fully understand what I'm shipping
+- Code review — I should be able to spot issues in AI output, not just accept it
+- Building new skills — if I use AI to skip the learning process, I stunt my own growth
+
+### How can I avoid over-reliance on AI?
+
+I make a point of attempting problems myself before turning to AI, and regularly reflect on whether my confidence in writing code independently is holding up — adjusting my habits if I notice I'm leaning on AI too much.
+
+### Steps to ensure data privacy when using AI tools
+
+1. **Never paste real user data into AI tools** — Focus Bear collects sensitive information including health data (ADHD status) and habit data, which is double encrypted. This data must never leave Focus Bear's secure systems.
+2. **Use only approved AI tools** — Focus Bear officially uses OpenAI for specific, scoped purposes. Any additional AI tools used in development should be approved and their data policies reviewed.
+3. **Sanitise code before sharing** — remove any hardcoded keys, tokens, or user-specific values before using AI tools
+
+---
+
+## Task

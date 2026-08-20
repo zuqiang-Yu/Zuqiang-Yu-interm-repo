@@ -72,3 +72,5 @@ After using **Focus Bear's movement break reminders** for a full workday
 
 ### Documented workspace change
 
+When I work from home I connect external monitor with my laptop, using magic pad external keyboard to work.
+Using Focus bear application, setup 45 minutes deep work mode and 10 minutes for break.

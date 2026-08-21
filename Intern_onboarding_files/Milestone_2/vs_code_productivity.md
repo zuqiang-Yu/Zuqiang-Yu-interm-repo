@@ -1,38 +1,31 @@
 # VS Code Shortcuts (Mac)
 The following are the shortcuts I ofen used at work
 ## Navigation
- 
-| Shortcut              | Action |
-|-----------------------|---|
-| `Command + P`         | Quick open — search and open any file by name |
-| `Command + Shift + P` | Command Palette — search and run any VS Code command |
-| `Command + G`         | Go to a specific line number |
-| `Command + F`         | Search within the current file |
-| `Command + Shift + F` | Search across all files in the project |
- 
+
+1. `Cmd + P` Quick open — search and open any file by name
+2. `Cmd + Shift + P` Command Palette — search and run any VS Code command
+3. `Cmd + G` Go to a specific line number
+4. `Cmd + F` Search within the current file
+5. `Cmd + Shift + F` Search across all files in the project
+
 ## Editing
- 
-| Shortcut              | Action |
-|-----------------------|---|
-| `Option + Click`      | Add multiple cursors at each click position |
-| `Command + Shift + K` | Delete the entire current line |
- 
+
+6. `Option + Click` Add multiple cursors at each click position
+7. `Cmd + Shift + K` Delete the entire current line
+
 ## Debugging
- 
-| Shortcut | Action |
-|---|---|
-| `F5` | Start / continue debugging |
- 
+
+8. `F5` Start / continue debugging
+
 ## Terminal
- 
-| Shortcut              | Action |
-|-----------------------|---|
-| `Command + Shift + 5` | Split the terminal into two panes |
-| `Command + K`         | Clear the terminal |
+
+9. `Cmd + Shift + 5` Split the terminal into two panes
+10. `Cmd + K` Clear the terminal
 
 ---
 # The most useful shortcut in my daily work
-is : Command + F to search keyword in current file. quickly locate it.
+quick search in current file shortcut is the most useful one in my daily work.
+Cmd + F to search keyword in current file. quickly locate it.
 For example, I saw a method name in error message, then I can navigate to the file and using shortcuts to quickly locate in.
 
 # How can keyboard shortcuts improve your productivity?

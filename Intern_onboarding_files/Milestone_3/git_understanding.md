@@ -59,4 +59,4 @@ Poor commit messages make it harder to understand the history of a project.
 ---
 
 I just using code 00/01/10 to present good and 11 for bad in this document.
-code: 11
+code: 10

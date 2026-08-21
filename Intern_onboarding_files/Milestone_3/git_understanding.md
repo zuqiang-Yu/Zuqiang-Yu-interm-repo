@@ -55,3 +55,8 @@ Poor commit messages make it harder to understand the history of a project.
 - **Slower debugging** — You have to open each commit and read the code just to find where a bug was introduced
 - **Risky rollbacks** — Without knowing what a commit changed, reverting it might accidentally break other features
 
+
+---
+
+I just using code 00/01/10 to present good and 11 for bad in this document.
+code: 00

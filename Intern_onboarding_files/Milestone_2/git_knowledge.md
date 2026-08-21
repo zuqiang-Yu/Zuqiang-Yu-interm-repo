@@ -25,3 +25,27 @@ GitHub Desktop is also GitHub's own native application, which makes it more reli
 
 In group projects, we usually correspond each issue to a branch. All commits made in this branch will be automatically linked or displayed in this issue.
 This guy onboarding tasks is my personal repo. I don't create a branch for each issue, so when I want to refer commit to a certain issue, I just need to enter the corresponding # number in the commit information. Or directly copy the commit link to the issue。
+
+
+---
+
+
+---
+
+## Merge Conflict Reflection
+
+### What caused the conflict?
+
+The conflict occurred when two branches modified the same lines in the same file. 
+
+### How did you resolve it?
+
+I opened the conflicting file and looked at the conflict markers(`<<<<<<<`, `=======`, `>>>>>>>`). I compared both versions, then
+manually combined the changes — keeping my teammate's styling updates while also including my navigation link changes. After editing, I removed
+the conflict markers, staged the file with `git add`, and completed the merge with `git commit`.
+
+### What did you learn?
+
+I learned that conflicts are a normal part of collaborative development, not something to panic about. The best way to prevent them is to
+communicate with teammates about who is working on which files, pull from
+main frequently, and keep branches short-lived.

@@ -41,9 +41,11 @@ Good structure like:
 
 ```
 
-description should not be too long and 
+* subject description should not be too long.
+* Keep it brief, wrap the subject line at 50 characters and the body at 72 characters
 
 ## How does a clear commit message help in team collaboration?
+Commit makes it easier for other developers in the team and reviewers to understand the changes, making code reviews more efficient
 
 
 ## How can poor commit messages cause issues later?

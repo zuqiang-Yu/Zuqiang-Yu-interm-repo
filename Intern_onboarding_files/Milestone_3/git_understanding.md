@@ -19,3 +19,31 @@ Reviewing a PR in the React repository showed me that code review is as much abo
 There must be at least one person to review, make changes and merge into other branches, and it is usually not the same person.
 Reviewers do not just point out what is wrong — they explain why a different approach might be better, ask clarifying questions, and acknowledge what is done well. 
 I also noticed that maintainers often request changes not because the code is broken, but because it does not align with the project's conventions or long-term direction. This taught me that writing a good PR is not just about making something work — it is about making something that fits naturally into the existing codebase and is easy for others to maintain after you are gone.
+
+
+
+
+---
+
+
+
+# Reflection for issue #49: Writing Meaningful Commit Messages
+
+## What makes a good commit message?
+A good commit consist of type, description, body and footer. 
+Good structure like:
+```
+<type>: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+```
+
+description should not be too long and 
+
+## How does a clear commit message help in team collaboration?
+
+
+## How can poor commit messages cause issues later?

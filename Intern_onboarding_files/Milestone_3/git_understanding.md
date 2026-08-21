@@ -49,3 +49,9 @@ Commit makes it easier for other developers in the team and reviewers to underst
 
 
 ## How can poor commit messages cause issues later?
+Poor commit messages make it harder to understand the history of a project. 
+
+- **Unreadable history** — Messages like just have `fix`, `update`, or `change` tell you nothing about what actually changed
+- **Slower debugging** — You have to open each commit and read the code just to find where a bug was introduced
+- **Risky rollbacks** — Without knowing what a commit changed, reverting it might accidentally break other features
+

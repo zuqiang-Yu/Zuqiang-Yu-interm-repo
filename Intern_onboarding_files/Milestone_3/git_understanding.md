@@ -1,4 +1,4 @@
-# Git – Pull Request Understanding
+# Pull Requests #48 : Git – Pull Request Understanding
 
 ## Why are PRs important in a team workflow?
 
@@ -51,7 +51,7 @@ Commit makes it easier for other developers in the team and reviewers to underst
 ## How can poor commit messages cause issues later?
 Poor commit messages make it harder to understand the history of a project. 
 
-- **Unreadable history** — Messages like just have `fix`, `update`, or `change` tell you nothing about what actually changed
+- **Unreadable history** — Messages like just have fix, update, or change tell you nothing about what actually changed
 - **Slower debugging** — You have to open each commit and read the code just to find where a bug was introduced
 - **Risky rollbacks** — Without knowing what a commit changed, reverting it might accidentally break other features
 
@@ -59,10 +59,10 @@ Poor commit messages make it harder to understand the history of a project.
 ---
 
 
-# Reflection for usage of command `git bisect`
+# Understand git bisect #50: Reflection for usage of command git bisect
 
 ## What does git bisect do?
-`git bisect` help programmer quickly found which commit produced this bug in 100 commits history. 
+git bisect help programmer quickly found which commit produced this bug in 100 commits history. 
 ## When would you use it in a real-world debugging situation?
 When two functions are merged from different branches into the dev branch. I discovered a bug that didn't exist before, a bug that didn't exist before these two functions were added. Since these two functions are rather complex, there are 100 commits. I will use git bisect to look for it
 ## How does it compare to manually reviewing commits?

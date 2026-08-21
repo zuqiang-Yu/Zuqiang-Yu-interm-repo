@@ -16,3 +16,4 @@ I kept the setup minimal and practical. I adjusted the Terminal font size to som
 
 ## What was the most useful command you learned today?
 
+the most useful command I learned is 'pwd', which can print the current working directory path

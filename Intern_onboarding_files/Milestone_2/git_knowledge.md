@@ -32,7 +32,28 @@ This guy onboarding tasks is my personal repo. I don't create a branch for each 
 
 ## Reflections
 
-##
+## What does each command do?
+> git checkout main -- file/folder path
+
+this command help people to fix files from main/other branches.
+> git cherry-pick #commit
+
+this command grabs one specific commit and applies it to your current branch;
+> git log 
+
+shows the full commit history;
+> git blame filepath
+
+reveals who last changed each line of a file and when
+## When would you use it in a real project 
+(hint: these are all really important in long running projects with multiple developers)?
+In a long-running multi-developer project, these commands come up constantly — 
+blame helps you track down who wrote a piece of code so you can ask them about it, 
+cherry-pick lets you apply a hotfix to multiple branches without duplicating work, 
+log is almost always the first step when debugging a regression, 
+and checkout main -- <file> saves you when you've broken one file but don't want to throw away everything else.
+## What surprised you while testing these commands?
+I think is `git checkout main -- filepath/folder` command, I always use checkout command for switch branch, don't know it can help me checkout file/whole folder from other branches.
 
 ---
 

@@ -49,3 +49,15 @@ the conflict markers, staged the file with `git add`, and completed the merge wi
 I learned that conflicts are a normal part of collaborative development, not something to panic about. The best way to prevent them is to
 communicate with teammates about who is working on which files, pull from
 main frequently, and keep branches short-lived.
+
+
+---
+# Branching & Team Collaboration reflection
+## Why is pushing directly to main problematic?
+if everyone work in the main branch, there are many conflict in this branch. Another thing is No one can guarantee that his commits/submission will not affect other functions or be free of bugs. A reviewer is needed to conduct the inspection.
+## How do branches help with reviewing code?
+We can pull a new branch from any exit branches, which will automaticly "copy" all files from exist branch.
+
+## What happens if two people edit the same file on different branches?
+if two people edit same file on different branches, they can free edit the same file and push to the repo branches.
+However, when those two branch merge in to main or dev branch will have conflict. need senior developer to resolve it.

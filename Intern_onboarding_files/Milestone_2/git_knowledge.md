@@ -28,7 +28,11 @@ This guy onboarding tasks is my personal repo. I don't create a branch for each 
 
 
 ---
+# Advanced Git Commands & When to Use Them
 
+## Reflections
+
+##
 
 ---
 

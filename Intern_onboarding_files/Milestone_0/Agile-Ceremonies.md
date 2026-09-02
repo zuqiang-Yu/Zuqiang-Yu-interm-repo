@@ -1,7 +1,7 @@
 # Research & Learn
 
-
 ## What are the main Agile ceremonies, and what is their purpose?
+
 Sprint Planning, the Daily Stand-up, the Sprint Review, and the Sprint Retrospective
 
 **Daily Stand-up**
@@ -27,7 +27,6 @@ A regular session to review and clean up the backlog — breaking down large tas
 adding detail to requirements, estimating effort, and adjusting priorities. The goal is to ensure tasks are clear and well-defined so the team can hit the ground running
 in Sprint Planning without needing last-minute clarification.
 
-
 ## How Agile Teams Collaborate Asynchronously Across Time Zones
 
 Agile teams replace status meetings with asynchronous communication such as recorded video updates,
@@ -44,6 +43,7 @@ when all time zones overlap, reserved specifically for urgent discussions or res
 # Reflection
 
 ## How do Agile ceremonies help with communication and alignment?
+
 Agile ceremonies — including daily stand-ups, sprint planning, retrospectives,and backlog refinement — help teams communicate effectively and stay aligned.
 
 They keep the team in sync in the following ways:

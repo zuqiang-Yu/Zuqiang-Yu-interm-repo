@@ -1,4 +1,6 @@
-### This document contains a brief competitive analysis of Focus Bear against other productivity and focus apps, including Freedom, Cold Turkey, Tiimo, and Routinery.
+# Understand competitive landscape #56
+
+## This document contains a brief competitive analysis of Focus Bear against other productivity and focus apps, including Freedom, Cold Turkey, Tiimo, and Routinery
 
 **What makes Focus Bear different from these apps?**
 

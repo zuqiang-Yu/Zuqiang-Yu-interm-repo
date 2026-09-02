@@ -1,16 +1,19 @@
+# Understanding of Focus Bear's mission and vision #58
+
 **Why was Focus Bear created?**
 
 Focus Bear was created because Jeremy Nagel and his team recognised that ADHD is a significant issue affecting people's daily lives, work, and studies — causing major economic losses and
-negatively impacting the wellbeing of those affected. Jeremy himself is a late-diagnosed AuDHDer 
+negatively impacting the wellbeing of those affected. Jeremy himself is a late-diagnosed AuDHDer
 who found that no existing productivity app worked for his brain, so he decided to build his own —
 a tool genuinely designed for the neurodivergent community to help users improve their focus.
 
 **What problem is Focus Bear solving?**
 
 Focus Bear addresses the core challenges faced by people with ADHD in daily life:
+
 - reducing distractions from other apps and websites (such as the impulse to scroll through social media),
-- difficulty refocusing after being interrupted, disorganised routines, trouble maintaining a consistent schedule, 
-- weak time perception, and low motivation. 
+- difficulty refocusing after being interrupted, disorganised routines, trouble maintaining a consistent schedule,
+- weak time perception, and low motivation.
 Focus Bear tackles these systematically through website and app blocking, routine guidance, and structured focus sessions.
 
 **Why is this mission important?**

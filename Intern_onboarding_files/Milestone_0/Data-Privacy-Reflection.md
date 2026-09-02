@@ -2,7 +2,6 @@
 
 ## Research & Learn
 
-
 ### Types of data considered confidential at Focus Bear
 
 - **User identification data** — email addresses, phone numbers
@@ -14,13 +13,13 @@
 
 ### Best practices for handling confidential data
 
-Only access data that's necessary for your task, store credentials in environment variables rather than source code, and use approved channels for sharing anything sensitive. 
+Only access data that's necessary for your task, store credentials in environment variables rather than source code, and use approved channels for sharing anything sensitive.
 When testing, always use anonymised or synthetic data instead of real user data. Keep software and dependencies up to date, and lock your screen whenever you step away — especially in public spaces.
 
 ### How to respond to a suspected data breach or accidental disclosure
 
-If a breach is suspected, act immediately — revoke access or close the exposed channel as fast as possible, then document what happened and notify your manager right away. 
-Don't try to handle it alone. If user data may be affected, contact privacy@focusbear.io — GDPR requires notifying affected parties within 72 hours. 
+If a breach is suspected, act immediately — revoke access or close the exposed channel as fast as possible, then document what happened and notify your manager right away.
+Don't try to handle it alone. If user data may be affected, contact <privacy@focusbear.io> — GDPR requires notifying affected parties within 72 hours.
 Once resolved, reflect on what caused it and put measures in place to prevent it happening again.
 
 ---

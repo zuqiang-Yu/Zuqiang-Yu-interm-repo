@@ -13,6 +13,7 @@ Using a laptop on its own forces you into a compromised position — the screen 
 - **External monitor** — larger screen at the correct height reduces eye strain and allows a better head position
 - **Ergonomic chair** — supports the lumbar (lower back) curve and encourages an upright seated position
 -
+
 ### Correct monitor height, chair position, and desk setup
 
 - **Monitor height:** The top of the screen should be at or just below eye level, roughly an arm's length away (50–70 cm). This keeps your neck neutral — not tilted up or down.
@@ -33,10 +34,12 @@ Using a laptop on its own forces you into a compromised position — the screen 
 ### What equipment changes can I make to improve my workspace?
 
 For my **Thursday WFH setup**, I will:
+
 - Use a **external monitor, mouse and keyboard** so my wrists sit at a natural angle
 - Position my chair so my feet are flat on the floor and my back is supported
 
 For my **Friday in-person setup at Sandringham Library**, I will:
+
 - Use a **external monitor in lib** and Bring an **external keyboard** to maintain a healthy arm position
 - Choose a desk and chair that allow correct posture rather than sitting on a couch or low seat
 
@@ -50,7 +53,7 @@ For my **Friday in-person setup at Sandringham Library**, I will:
 
 ### How can I remind myself to maintain good posture and take breaks?
 
-I will use **Focus Bear** to schedule regular movement break reminders throughout the workday. 
+I will use **Focus Bear** to schedule regular movement break reminders throughout the workday.
 
 ---
 

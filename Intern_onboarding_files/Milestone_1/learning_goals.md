@@ -1,8 +1,8 @@
 # My learning goals answer
 
 * What do you hope to learn from this internship?
-  * From this internship, I hope to gain a deeper understanding of the mobile app development process and architecture, particularly how cross-platform applications are structured and designed. 
-  * I also look forward to experiencing how a real development team divides tasks and collaborates, which I believe will help me strengthen my communication and teamwork skills. 
+  * From this internship, I hope to gain a deeper understanding of the mobile app development process and architecture, particularly how cross-platform applications are structured and designed.
+  * I also look forward to experiencing how a real development team divides tasks and collaborates, which I believe will help me strengthen my communication and teamwork skills.
   * Additionally, while using the Focus Bear app, I noticed an AI-powered blocking feature when setting up a block list. I'm keen to understand how AI is integrated into the app and how it works behind the scenes.
 * What skills are you most excited to develop?
   * **Cross-platform mobile development** — gaining hands-on experience building apps that work seamlessly across both iOS and Android.

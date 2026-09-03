@@ -35,3 +35,16 @@ They are also useful for documenting public functions with docstrings, so other 
 
 If you find yourself writing a comment to explain what a variable or function does, that is a signal to rename it instead — good naming makes the comment unnecessary. Commented-out old code should always be deleted rather than kept, since Git preserves history and stale code only adds confusion.
 When a comment simply repeats what the code already says, it adds no value and should be removed, keeping the codebase clean and focused.
+
+---
+
+# Refactoring Code for Simplicity #42
+
+## What made the original code complex?
+
+Too many if-else format and variable name is not meaningful, hard to read and understand the function.
+There are some magic number in it
+
+## How did refactoring improve it?
+
+Refactoring improved the naming by replacing single-letter variables like uid, t, and c with descriptive names like user_id, user_type, and coupon, making the code self-explanatory without needing comments. The deeply nested if/else structure was replaced with Guard Clauses and a dictionary lookup, flattening the logic so the core calculation is immediately visible instead of buried inside multiple layers. Returning None on failure was replaced with explicit ValueError exceptions, making error handling clearer and debugging faster since the caller now knows exactly what went wrong and why.

@@ -78,7 +78,7 @@ I make a point of attempting problems myself before turning to AI, and regularly
 
 ### Identify one task you can improve using an AI tool, and try it out
 
-I think that I will use AI tool to find the reason of the bug, maybe copy paste the error messages and reated codes.
+I think that I will use AI tool to find the reason of the bug, maybe copy paste the error messages and related codes.
 Ask LLM to quick identify the problem then I can try to fix it.
 
 ### Review the AI-generated output critically—did it require editing or fact-checking?

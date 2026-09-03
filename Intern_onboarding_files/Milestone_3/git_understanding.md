@@ -134,7 +134,7 @@ if everyone work in the main branch, there are many conflict in this branch. Ano
 
 ## How do branches help with reviewing code?
 
-We can pull a new branch from any exit branches, which will automaticly "copy" all files from exist branch.
+We can pull a new branch from any exit branches, which will automatically "copy" all files from exist branch.
 
 ## What happens if two people edit the same file on different branches?
 

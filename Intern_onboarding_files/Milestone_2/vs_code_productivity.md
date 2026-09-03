@@ -1,6 +1,6 @@
 # VS Code Shortcuts (Mac)
 
-The following are the shortcuts I ofen used at work
+The following are the shortcuts I often used at work
 
 ## Navigation
 

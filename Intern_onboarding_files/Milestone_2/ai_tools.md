@@ -6,7 +6,7 @@ I try Claude code and ChatGPT
 
 I think claude code work better than ChatGPT. There is a cowork mode in claude code, which allow us to create a project, link with my work folder and set instruction.
 then its answer will depends on the material and files to generate.
-chatgpt need to uplaod files or folder by ourselives.
+chatgpt need to upload files or folder by ourselves.
 
 # When do you think AI is most useful for coding?
 

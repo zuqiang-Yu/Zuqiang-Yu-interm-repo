@@ -16,7 +16,7 @@ I was aware of it before but rarely used it. In a professional project, where yo
 
 ## Have you used Git before? If so, in what context?
 
-Yes I used Github for 4 years. In Uni, I usually used Github to store my codes, cowork - working with Other teammates, record the bug in issue and when I make a misstake in my code github allow me to roll back it.
+Yes I used Github for 4 years. In Uni, I usually used Github to store my codes, cowork - working with Other teammates, record the bug in issue and when I make a mistake in my code github allow me to roll back it.
 
 ---
 

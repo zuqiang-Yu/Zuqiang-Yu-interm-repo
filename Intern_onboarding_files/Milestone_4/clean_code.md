@@ -21,3 +21,17 @@ The original calculate_discount function did not validate the types of its input
 ## How does handling errors improve reliability?
 
 Proper error handling ensures that when invalid inputs are passed, the function fails immediately with a clear, descriptive message instead of crashing unexpectedly somewhere else in the code. This makes debugging much faster because the error points directly to the source of the problem rather than a confusing downstream failure. It also makes the code more predictable — other developers know exactly what inputs are valid and what will happen if they pass something wrong.
+
+---
+
+# Commenting & Documentation #41
+
+## When should you add comments?
+
+Comments should be added when the code alone cannot explain why a decision was made — for example, a business rule, a legal requirement, or a known workaround for a library bug.
+They are also useful for documenting public functions with docstrings, so other developers know what inputs are expected, what gets returned, and what exceptions might be raised. Non-obvious technical choices, such as rounding floats to avoid precision errors or filtering out specific event types in a stream, also deserve a short comment explaining the reasoning.
+
+## When should you avoid comments and instead improve the code?
+
+If you find yourself writing a comment to explain what a variable or function does, that is a signal to rename it instead — good naming makes the comment unnecessary. Commented-out old code should always be deleted rather than kept, since Git preserves history and stale code only adds confusion.
+When a comment simply repeats what the code already says, it adds no value and should be removed, keeping the codebase clean and focused.

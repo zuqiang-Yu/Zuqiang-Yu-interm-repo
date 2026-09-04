@@ -91,3 +91,20 @@ Other developer hard to understand what you write, which means they need to spen
 ## How did refactoring improve code readability?
 
 Refactoring improves readability by replacing vague names with descriptive ones, so the purpose of every variable and function is immediately clear without needing to trace through the logic. Breaking a large function into smaller named functions means the code reads like a sequence of plain-English steps rather than a wall of nested conditions. When the code itself communicates its intent clearly, anyone — including your future self — can understand, maintain, and extend it with far less effort.
+
+---
+
+#
+
+## Why is code formatting important?
+
+Consistent formatting makes code easier to read and review, because everyone on the team follows the same style and can focus on logic rather than layout.
+
+## What issues did the linter detect?
+
+The linter detected formatting issues
+It also caught spelling mistakes and the use of non-standard words that would be unclear to other readers.
+
+## Did formatting the code make it easier to read?
+
+Yes — after running the auto-fix and resolving the remaining issues, the files became more consistent and predictable, making it easier to scan through content without being distracted by irregular spacing or structure.

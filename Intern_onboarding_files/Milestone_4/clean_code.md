@@ -48,3 +48,16 @@ There are some magic number in it
 ## How did refactoring improve it?
 
 Refactoring improved the naming by replacing single-letter variables like uid, t, and c with descriptive names like user_id, user_type, and coupon, making the code self-explanatory without needing comments. The deeply nested if/else structure was replaced with Guard Clauses and a dictionary lookup, flattening the logic so the core calculation is immediately visible instead of buried inside multiple layers. Returning None on failure was replaced with explicit ValueError exceptions, making error handling clearer and debugging faster since the caller now knows exactly what went wrong and why.
+
+---
+
+# Avoiding Code Duplication $43
+
+## What were the issues with duplicated code?
+
+when a bug is found it must be fixed in every copy — miss one and the behaviour becomes inconsistent.
+
+## How did refactoring improve maintainability?
+
+If developer found code duplication, they should refactor all the copy code.
+When developer refactor the duplication code into a function, they can use it in everywhere and fix it once.

@@ -75,3 +75,19 @@ Sometimes help other developer reuse same function.
 
 Refactoring broke the single monolithic function into small, focused functions — each responsible for exactly one thing.
 This means when a bug appears or a requirement changes, you know exactly which function to look at rather than searching through one long block of mixed logic.
+
+---
+
+# Naming Variables & Functions #45
+
+## What makes a good variable or function name?
+
+meaningful, be consistent
+
+## What issues can arise from poorly named variables?
+
+Other developer hard to understand what you write, which means they need to spend much time to figure out what does this variable means and how to use it.
+
+## How did refactoring improve code readability?
+
+Refactoring improves readability by replacing vague names with descriptive ones, so the purpose of every variable and function is immediately clear without needing to trace through the logic. Breaking a large function into smaller named functions means the code reads like a sequence of plain-English steps rather than a wall of nested conditions. When the code itself communicates its intent clearly, anyone — including your future self — can understand, maintain, and extend it with far less effort.

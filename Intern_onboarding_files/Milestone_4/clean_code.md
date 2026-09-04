@@ -61,3 +61,17 @@ when a bug is found it must be fixed in every copy — miss one and the behaviou
 
 If developer found code duplication, they should refactor all the copy code.
 When developer refactor the duplication code into a function, they can use it in everywhere and fix it once.
+
+---
+
+# Writing Small, Focused Functions #44
+
+## Why is breaking down functions beneficial?
+
+One function only responsible for one task, make other developer understand easily.
+Sometimes help other developer reuse same function.
+
+## How did refactoring improve the structure of the code?
+
+Refactoring broke the single monolithic function into small, focused functions — each responsible for exactly one thing.
+This means when a bug appears or a requirement changes, you know exactly which function to look at rather than searching through one long block of mixed logic.

@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useCallback, useMemo, memo } from 'react';
 import HelloWorld from './HelloWorld';
-
-// 在 return 里加上
+import Counter from './Counter.jsx';
 
 const Button = memo(function Button({ onClick, label }) {
   console.log(`Button "${label}" 重新渲染了`);
@@ -32,6 +31,7 @@ function App() {
       <h1 className="text-2xl font-bold">useCallback Demo</h1>
 
       <HelloWorld name="Zuqiang" />
+      <Counter />
 
       <p className="text-lg">Count: {count}</p>
       <button

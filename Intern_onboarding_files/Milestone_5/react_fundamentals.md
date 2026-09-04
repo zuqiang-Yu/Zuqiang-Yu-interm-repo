@@ -15,3 +15,11 @@ I using LLM help me to set it up, so don't have any challenges..
 ## Why are components important in React?
 
 Components let you break a complex UI into small, reusable, and manageable pieces — making your code easier to read, maintain, and scale.
+
+---
+
+# Handling State & User Input
+
+## What happens if we modify state directly instead of using setState?
+
+Directly modifying state bypasses React's update mechanism, so the UI will not re-render to reflect the change.

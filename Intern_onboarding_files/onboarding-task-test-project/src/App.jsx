@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
-import { useState, useCallback, memo } from 'react';
+import { useState, useCallback, useMemo, memo } from 'react';
+import HelloWorld from './HelloWorld';
+
+// 在 return 里加上
 
 const Button = memo(function Button({ onClick, label }) {
   console.log(`Button "${label}" 重新渲染了`);
@@ -27,6 +30,8 @@ function App() {
   return (
     <div className="flex flex-col items-center gap-4 p-8">
       <h1 className="text-2xl font-bold">useCallback Demo</h1>
+
+      <HelloWorld name="Zuqiang" />
 
       <p className="text-lg">Count: {count}</p>
       <button

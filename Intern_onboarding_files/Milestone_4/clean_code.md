@@ -108,3 +108,39 @@ It also caught spelling mistakes and the use of non-standard words that would be
 ## Did formatting the code make it easier to read?
 
 Yes — after running the auto-fix and resolving the remaining issues, the files became more consistent and predictable, making it easier to scan through content without being distracted by irregular spacing or structure.
+
+---
+
+# Understanding Clean Code Principles
+
+## Simplicity – Keep code as simple as possible
+
+Simplicity means solving problems with the least amount of complexity
+necessary. Code should not be over-engineered or filled with unnecessary
+abstractions — if a straightforward solution works, use it.
+
+## Readability – Code should be easy to understand
+
+Readable code communicates its intent clearly without requiring the reader
+to guess or trace through complex logic. This is achieved through meaningful
+naming, consistent formatting, and small focused functions. Code is read
+far more often than it is written, so optimising for the reader is always
+worthwhile.
+
+## Maintainability – Future developers (including you!) should be able to work with the code easily
+
+Maintainable code is easy to change, extend, and debug — both for future developers and for yourself months later.
+
+## Consistency – Follow style guides and project conventions
+
+Consistency means following the same style, conventions, and patterns
+throughout the entire codebase. When code is consistent, developers can
+predict how things are structured and spend less time adjusting to different
+styles.
+
+## Efficiency – Write performant, optimized code without premature over-engineering
+
+Efficient code performs well without wasting resources, but efficiency
+should never come at the cost of readability. Premature optimisation —
+making code complex in order to be fast before knowing there is a
+performance problem — is one of the most common clean code mistakes.

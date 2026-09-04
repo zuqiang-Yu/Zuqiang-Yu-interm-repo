@@ -35,11 +35,10 @@ Good structure like:
 [optional body]
 
 [optional footer(s)]
-
 ```
 
-* subject description should not be too long.
-* Keep it brief, wrap the subject line at 50 characters and the body at 72 characters
+- subject description should not be too long.
+- Keep it brief, wrap the subject line at 50 characters and the body at 72 characters
 
 ## How does a clear commit message help in team collaboration?
 
@@ -49,9 +48,9 @@ Commit makes it easier for other developers in the team and reviewers to underst
 
 Poor commit messages make it harder to understand the history of a project.
 
-* **Unreadable history** — Messages like just have fix, update, or change tell you nothing about what actually changed
-* **Slower debugging** — You have to open each commit and read the code just to find where a bug was introduced
-* **Risky rollbacks** — Without knowing what a commit changed, reverting it might accidentally break other features
+- **Unreadable history** — Messages like just have fix, update, or change tell you nothing about what actually changed
+- **Slower debugging** — You have to open each commit and read the code just to find where a bug was introduced
+- **Risky rollbacks** — Without knowing what a commit changed, reverting it might accidentally break other features
 
 ---
 
@@ -77,16 +76,19 @@ Compare with manually switch commits to found bug. git bisect is convenient.
 ## Reflections
 
 ## What does each command do?
->
+
 > git checkout main -- file/folder path
 
 this command help people to fix files from main/other branches.
+
 > git cherry-pick #commit
 
 this command grabs one specific commit and applies it to your current branch;
+
 > git log
 
 shows the full commit history;
+
 > git blame filepath
 
 reveals who last changed each line of a file and when

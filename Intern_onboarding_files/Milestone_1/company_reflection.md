@@ -14,7 +14,7 @@ Focus Bear addresses the core challenges faced by people with ADHD in daily life
 - reducing distractions from other apps and websites (such as the impulse to scroll through social media),
 - difficulty refocusing after being interrupted, disorganised routines, trouble maintaining a consistent schedule,
 - weak time perception, and low motivation.
-Focus Bear tackles these systematically through website and app blocking, routine guidance, and structured focus sessions.
+  Focus Bear tackles these systematically through website and app blocking, routine guidance, and structured focus sessions.
 
 **Why is this mission important?**
 

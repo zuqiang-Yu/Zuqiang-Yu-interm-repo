@@ -9,14 +9,14 @@ Team members can see the status of all tasks at any time, making it clear who is
 
 ## What do the different columns on a Kanban board represent? (e.g., Backlog, In Progress, Blocked, Done)
 
-* **Backlog** — All pending tasks, prioritised and not yet started.
-* **In Progress** — Tasks currently being worked on.
-* **Blocked** — Tasks that cannot move forward due to external dependencies,
+- **Backlog** — All pending tasks, prioritised and not yet started.
+- **In Progress** — Tasks currently being worked on.
+- **Blocked** — Tasks that cannot move forward due to external dependencies,
   pending approvals, or technical issues. A reason must be noted so other team members
   can help resolve it.
-* **In Review / Testing** — Tasks that are development-complete but still undergoing
+- **In Review / Testing** — Tasks that are development-complete but still undergoing
   code review or QA testing.
-* **Done** — Tasks that have been completed and accepted.
+- **Done** — Tasks that have been completed and accepted.
 
 ## How do tasks move through the board, and who is responsible for updating them?
 

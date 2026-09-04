@@ -28,7 +28,7 @@ Once resolved, reflect on what caused it and put measures in place to prevent it
 
 ### Steps I can take to handle data securely in my daily tasks
 
-- Before writing code that touches user data, ask: *"Can I use test data instead of real data?"*
+- Before writing code that touches user data, ask: _"Can I use test data instead of real data?"_
 - Store all credentials in environment variables — never commit `.env` files to version control
 - Double-check before sharing screenshots or code snippets that no user data or tokens are visible
 

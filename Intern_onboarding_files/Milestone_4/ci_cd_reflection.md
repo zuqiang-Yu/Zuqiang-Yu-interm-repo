@@ -11,9 +11,9 @@ Automated style checks (like Markdown lint and cspell) ensure every file follows
 
 ## What are some challenges with enforcing checks in CI/CD?
 
-* False positives — Tools like cspell may flag valid words (e.g. Australian English spellings, proper nouns), requiring manual configuration.
-* Slow pipelines — Too many checks can slow down the feedback loop.
-* Developer resistance — Strict rules can frustrate developers.
+- False positives — Tools like cspell may flag valid words (e.g. Australian English spellings, proper nouns), requiring manual configuration.
+- Slow pipelines — Too many checks can slow down the feedback loop.
+- Developer resistance — Strict rules can frustrate developers.
 
 ## How do CI/CD pipelines differ between small projects and large teams?
 

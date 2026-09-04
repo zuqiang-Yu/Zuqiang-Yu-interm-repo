@@ -2,6 +2,7 @@
 import { useState, useCallback, useMemo, memo } from 'react';
 import HelloWorld from './HelloWorld';
 import Counter from './Counter.jsx';
+import ToDoList from './ToDoList.jsx';
 
 const Button = memo(function Button({ onClick, label }) {
   console.log(`Button "${label}" 重新渲染了`);
@@ -49,6 +50,7 @@ function App() {
       />
 
       <Button onClick={handleSubmit} label="Submit" />
+      <ToDoList />
     </div>
   );
 }

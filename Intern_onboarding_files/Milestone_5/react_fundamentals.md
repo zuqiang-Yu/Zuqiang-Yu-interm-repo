@@ -23,3 +23,11 @@ Components let you break a complex UI into small, reusable, and manageable piece
 ## What happens if we modify state directly instead of using setState?
 
 Directly modifying state bypasses React's update mechanism, so the UI will not re-render to reflect the change.
+
+---
+
+# Working with Lists & User Input
+
+## What are some common issues when working with lists in React?
+
+The most common issues are missing or non-unique key props, and directly mutating the array instead of creating a new one with setState.

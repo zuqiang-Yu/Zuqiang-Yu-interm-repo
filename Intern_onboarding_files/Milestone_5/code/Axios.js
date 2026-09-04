@@ -52,15 +52,18 @@ async function submitOrder(orderData, router) {
     return response.data;
   } catch (error) {
     if (error.name === 'CanceledError') {
+      // eslint-disable-next-line no-console
       console.error('Request was cancelled due to timeout.');
     } else if (error.response) {
       // Server responded with 4xx / 5xx
+      // eslint-disable-next-line no-console
       console.error(
         `Server error: ${error.response.status}`,
         error.response.data,
       );
     } else {
       // Network error or no response
+      // eslint-disable-next-line no-console
       console.error('Network error:', error.message);
     }
     throw error;

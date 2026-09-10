@@ -2,6 +2,7 @@
 import { useState, useCallback, useMemo, memo } from 'react';
 import HelloWorld from './HelloWorld';
 import Counter from './Counter.jsx';
+import Counterv2 from './Counterv2.jsx';
 import ToDoList from './ToDoList.jsx';
 import Mutation from './Mutation_bug.jsx';
 import Stale from './Stale_Closure_bug.jsx';
@@ -59,6 +60,8 @@ function App() {
         <Mutation state={state} />
         <Stale />
       </>
+
+      <Counter />
     </div>
   );
 }

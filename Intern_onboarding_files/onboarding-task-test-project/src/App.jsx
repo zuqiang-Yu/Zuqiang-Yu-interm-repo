@@ -3,6 +3,8 @@ import { useState, useCallback, useMemo, memo } from 'react';
 import HelloWorld from './HelloWorld';
 import Counter from './Counter.jsx';
 import ToDoList from './ToDoList.jsx';
+import Mutation from './Mutation_bug.jsx';
+import Stale from './Stale_Closure_bug.jsx';
 
 const Button = memo(function Button({ onClick, label }) {
   console.log(`Button "${label}" 重新渲染了`);
@@ -19,6 +21,8 @@ const Button = memo(function Button({ onClick, label }) {
 function App() {
   const [count, setCount] = useState(0);
   const [text, setText] = useState('');
+
+  const state = { count: 10 };
 
   // const handleSubmit = useCallback(() => {
   // console.log('submitted')
@@ -51,6 +55,10 @@ function App() {
 
       <Button onClick={handleSubmit} label="Submit" />
       <ToDoList />
+      <>
+        <Mutation state={state} />
+        <Stale />
+      </>
     </div>
   );
 }

@@ -6,6 +6,8 @@ import Counterv2 from './Counterv2.jsx';
 import ToDoList from './ToDoList.jsx';
 import Mutation from './Mutation_bug.jsx';
 import Stale from './Stale_Closure_bug.jsx';
+import DisplayA from './DisplayA';
+import DisplayB from './DisplayB';
 
 const Button = memo(function Button({ onClick, label }) {
   console.log(`Button "${label}" 重新渲染了`);
@@ -62,6 +64,10 @@ function App() {
       </>
 
       <Counter />
+      <div className="flex gap-4">
+        <DisplayA />
+        <DisplayB />
+      </div>
     </div>
   );
 }

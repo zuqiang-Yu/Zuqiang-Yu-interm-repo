@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement, reset } from './store/counterSlice';
+import { increment, decrement, reset, selectCount } from './store/counterSlice';
 
 function Counterv2() {
-  const count = useSelector((state) => state.counter.count); // 从 store 读数据
+  const count = useSelector(selectCount); // 从 store 读数据
   const dispatch = useDispatch(); // 用来触发 action
 
   return (

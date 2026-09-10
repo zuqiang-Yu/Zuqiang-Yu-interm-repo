@@ -17,5 +17,5 @@ Automated style checks (like Markdown lint and cspell) ensure every file follows
 
 ## How do CI/CD pipelines differ between small projects and large teams?
 
-In a small team, their CI/CD pipeline check the unit and integration test, lint check and some basic checks. The pipeline is easy and fast.
-However, in the large team, they require more tests like security scans, performance tests, and might have more stage in their pipeline.
+In a small team, their CI/CD pipeline checks the unit and integration test, lint check and some basic checks. The pipeline is easy and fast.
+However, in the large team, they require more tests like security scans, performance tests, and might have more stages in their pipeline.

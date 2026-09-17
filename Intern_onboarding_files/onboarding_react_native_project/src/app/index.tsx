@@ -8,6 +8,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { WebBadge } from '@/components/web-badge';
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+import Counter from '../components/Counter';
 
 function getDevMenuHint() {
   if (Platform.OS === 'web') {
@@ -38,11 +39,9 @@ export default function HomeScreen() {
             Welcome to&nbsp;Expo
           </ThemedText>
         </ThemedView>
-
         <ThemedText type="code" style={styles.code}>
           get started
         </ThemedText>
-
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
           <HintRow
             title="Try editing"
@@ -54,8 +53,8 @@ export default function HomeScreen() {
             hint={<ThemedText type="code">npm run reset-project</ThemedText>}
           />
         </ThemedView>
-
         {Platform.OS === 'web' && <WebBadge />}
+        <Counter />
       </SafeAreaView>
     </ThemedView>
   );

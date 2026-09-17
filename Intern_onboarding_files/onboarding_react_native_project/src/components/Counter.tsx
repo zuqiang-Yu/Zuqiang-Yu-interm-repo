@@ -1,12 +1,17 @@
 import { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ViewStyle,
+} from 'react-native';
 
-function Counter() {
+function Counter({ style }: { style?: ViewStyle }) {
   const [count, setCount] = useState(0);
 
-  // ✅ 正确 — 直接 return JSX，注释移到里面
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, style]}>
       <Text style={styles.title}>Counter</Text>
       {/* inline style 用在这里 — 动态样式，根据 count 变色 */}
       <Text

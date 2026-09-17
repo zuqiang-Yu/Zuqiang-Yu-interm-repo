@@ -54,7 +54,15 @@ export default function HomeScreen() {
           />
         </ThemedView>
         {Platform.OS === 'web' && <WebBadge />}
-        <Counter />
+        <Counter
+          style={{
+            marginTop: 16,
+            borderTopWidth: 1,
+            borderTopColor: '#e5e7eb',
+            paddingTop: 16,
+            alignSelf: 'stretch',
+          }}
+        />
       </SafeAreaView>
     </ThemedView>
   );

@@ -1,5 +1,5 @@
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-npx markdownlint-cli2 "**/*.md"
+npx markdownlint-cli2 "**/*.md" "!**/node_modules/**"
 npx eslint .
 npx prettier --check .

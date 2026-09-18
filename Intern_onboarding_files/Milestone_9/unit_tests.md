@@ -20,3 +20,15 @@ React Testing Library encourages tests that interact with components the same wa
 ## What challenges did you encounter when simulating user interaction?
 
 I think the biggest challenge is hard to locate the button/interaction correctly. Sometimes with same or similar button I need to simulate user click. using Test to locate the button usually locate two or more button then test failed.
+
+---
+
+# Mocking API Calls in Jest
+
+## Why is it important to mock API calls in tests?
+
+Mocking API calls keeps tests fast, deterministic, and isolated from external dependencies — a real network request can fail due to connectivity issues, server downtime, or changing data, all of which would cause test failures unrelated to the code being tested. Mocks also let you simulate specific scenarios that are hard to reproduce with a real API, such as network errors, timeouts, or edge-case response shapes, giving you full control over the conditions each test runs under.
+
+## What are some common pitfalls when testing asynchronous code?
+
+One of the most common pitfalls is making assertions before the async operation has resolved — forgetting to `await` a promise or omitting `waitFor` means the test checks the DOM or state too early and can pass falsely or miss the expected update entirely. Another frequent issue is not handling promise rejections properly, which can cause tests to silently fail or produce misleading error messages rather than clearly identifying what went wrong.

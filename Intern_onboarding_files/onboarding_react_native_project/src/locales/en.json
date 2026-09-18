@@ -1,0 +1,8 @@
+{
+  "postList": {
+    "header": "Post List",
+    "loading": "Loading...",
+    "error": "Request failed, please retry",
+    "retry": "Retry"
+  }
+}

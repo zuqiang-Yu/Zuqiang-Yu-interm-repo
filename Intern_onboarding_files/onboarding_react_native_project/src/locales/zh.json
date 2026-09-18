@@ -1,0 +1,8 @@
+{
+  "postList": {
+    "header": "文章列表",
+    "loading": "加载中...",
+    "error": "请求失败，请重试",
+    "retry": "重试"
+  }
+}

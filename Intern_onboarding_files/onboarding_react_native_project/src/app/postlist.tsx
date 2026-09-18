@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   View,
   Text,
@@ -15,6 +16,7 @@ type Post = {
 };
 
 export default function PostList() {
+  const { t } = useTranslation();
   const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -30,7 +32,7 @@ export default function PostList() {
       const data = await response.json();
       setPosts(data);
     } catch (err) {
-      setError('request failed, please retry it');
+      setError(t('postList.error'));
     } finally {
       setLoading(false);
     }
@@ -45,7 +47,7 @@ export default function PostList() {
     return (
       <View style={styles.centered}>
         <ActivityIndicator size="large" color="#3b82f6" />
-        <Text style={styles.loadingText}>loading...</Text>
+        <Text style={styles.loadingText}>{t('postList.loading')}</Text>
       </View>
     );
   }
@@ -55,7 +57,7 @@ export default function PostList() {
       <View style={styles.centered}>
         <Text style={styles.errorText}>{error}</Text>
         <TouchableOpacity style={styles.retryButton} onPress={fetchPosts}>
-          <Text style={styles.retryText}>retry</Text>
+          <Text style={styles.retryText}>{t('postList.retry')}</Text>
         </TouchableOpacity>
       </View>
     );
@@ -63,7 +65,7 @@ export default function PostList() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>文章列表</Text>
+      <Text style={styles.header}>{t('postList.header')}</Text>
       <FlatList
         data={posts}
         keyExtractor={(item) => item.id.toString()}

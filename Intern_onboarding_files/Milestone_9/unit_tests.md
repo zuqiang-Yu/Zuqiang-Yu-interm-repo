@@ -18,3 +18,5 @@ However, in react native unit test, it is a UI test, don't know how to do it and
 React Testing Library encourages tests that interact with components the same way a real user would — querying elements by visible text, ARIA roles, or labels rather than internal state, method names, or component structure. This means tests remain valid through internal refactors: as long as the rendered output and behaviour stay the same, the tests pass, which reduces false failures and keeps the test suite focused on what actually matters to the user.
 
 ## What challenges did you encounter when simulating user interaction?
+
+I think the biggest challenge is hard to locate the button/interaction correctly. Sometimes with same or similar button I need to simulate user click. using Test to locate the button usually locate two or more button then test failed.

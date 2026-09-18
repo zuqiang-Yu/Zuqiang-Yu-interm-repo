@@ -28,13 +28,14 @@ The following are the shortcuts I often used at work
 
 # The most useful shortcut in my daily work
 
-quick search in current file shortcut is the most useful one in my daily work.
+The quick search in current file shortcut is the most useful one in my daily work.
 Cmd + F to search keyword in current file. quickly locate it.
 For example, I saw a method name in error message, then I can navigate to the file and using shortcuts to quickly locate in.
+The second one is `Option + Click` Add multiple cursors at each click position. If I write a duplicate code or change function/method I used in multiple lines.
 
 # How can keyboard shortcuts improve your productivity?
 
 Keyboard shortcuts allow me to access built-in features instantly without having to search for them.
-For example, to search within a file, a user without shortcuts would need to locate the option in the menu and click it — whereas pressing ⌘ + F does the same thing in under a second.
+For example, to search within a file, a user without shortcuts would need to locate the option in the menu and click it — whereas pressing Cmd + F does the same thing in under a second.
 
-Shortcuts also reduce how often you need to switch between the keyboard and mouse, which matters during coding because reaching for the mouse breaks your focus and interrupts your train of thought. Actions like jumping to a file with ⌘ + P or searching by keyword with ⌘ + F each save only a few seconds, but repeated dozens or hundreds of times throughout a day, the time saved becomes significant.
+Shortcuts also reduce how often you need to switch between the keyboard and mouse, which matters during coding because reaching for the mouse breaks your focus and interrupts your train of thought. Actions like jumping to a file with Cmd + P or searching by keyword with Cmd + F each save only a few seconds, but repeated dozens or hundreds of times throughout a day, the time saved becomes significant.

@@ -9,6 +9,8 @@ import { ThemedView } from '@/components/themed-view';
 import { WebBadge } from '@/components/web-badge';
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
 import Counter from '../components/Counter';
+import { router } from 'expo-router';
+import { TouchableOpacity, Text } from 'react-native';
 
 function getDevMenuHint() {
   if (Platform.OS === 'web') {
@@ -63,6 +65,12 @@ export default function HomeScreen() {
             alignSelf: 'stretch',
           }}
         />
+        <TouchableOpacity
+          style={{ padding: 12, backgroundColor: '#3b82f6', borderRadius: 8 }}
+          onPress={() => router.push('/second')}
+        >
+          <Text style={{ color: 'white' }}>去第二页</Text>
+        </TouchableOpacity>
       </SafeAreaView>
     </ThemedView>
   );

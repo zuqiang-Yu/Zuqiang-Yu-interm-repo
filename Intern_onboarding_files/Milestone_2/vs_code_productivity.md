@@ -4,38 +4,55 @@ The following are the shortcuts I often used at work
 
 ## Navigation
 
-1. `Cmd + P` Quick open — search and open any file by name
-2. `Cmd + Shift + P` Command Palette — search and run any VS Code command
-3. `Cmd + G` Go to a specific line number
-4. `Cmd + F` Search within the current file
-5. `Cmd + Shift + F` Search across all files in the project
+`Cmd + P` Quick open — search and open any file by name
+`Cmd + Shift + P` Command Palette — search and run any VS Code command
+`Cmd + G` Go to a specific line number
+`Cmd + F` Search within the current file
+`Cmd + Shift + F` Search across all files in the project
 
 ## Editing
 
-1. `Option + Click` Add multiple cursors at each click position
-2. `Cmd + Shift + K` Delete the entire current line
+`Option + Click` Add multiple cursors at each click position
+`Cmd + Shift + K` Delete the entire current line
 
 ## Debugging
 
-1. `F5` Start / continue debugging
+`F5` Start / continue debugging
 
 ## Terminal
 
-1. `Cmd + Shift + 5` Split the terminal into two panes
-2. `Cmd + K` Clear the terminal
+`Cmd + Shift + 5` Split the terminal into two panes
+`Cmd + K` Clear the terminal
 
 ---
 
-# The most useful shortcut in my daily work
+# The Most Useful Shortcuts in My Daily Work
 
-The quick search in current file shortcut is the most useful one in my daily work.
-Cmd + F to search keyword in current file. quickly locate it.
-For example, I saw a method name in error message, then I can navigate to the file and using shortcuts to quickly locate in.
-The second one is Option + Click Add multiple cursors at each click position. If I write a duplicate code or change function/method I used in multiple lines.
+These are the shortcuts I think I will use most.
 
-# How can keyboard shortcuts improve your productivity?
+The first is `Cmd + F` to search within the current file. When I see a
+method name in an error message, I open the file and use `Cmd + F` to
+search for that keyword and locate it immediately, instead of scrolling
+through hundreds of lines manually.
 
-Keyboard shortcuts allow me to access built-in features instantly without having to search for them.
-For example, to search within a file, a user without shortcuts would need to locate the option in the menu and click it — whereas pressing Cmd + F does the same thing in under a second.
+The second is `Option + Click` to add multiple cursors. When I need to
+rename a variable or update the same value in several places at once, I
+click each location and edit them all at the same time.
 
-Shortcuts also reduce how often you need to switch between the keyboard and mouse, which matters during coding because reaching for the mouse breaks your focus and interrupts your train of thought. Actions like jumping to a file with Cmd + P or searching by keyword with Cmd + F each save only a few seconds, but repeated dozens or hundreds of times throughout a day, the time saved becomes significant.
+The third is `Cmd + P` to quickly open any file by name. Instead of
+clicking through the file tree, I just type part of the filename and
+jump straight to it.
+
+# How Can Keyboard Shortcuts Improve Your Productivity?
+
+Keyboard shortcuts allow me to access built-in features instantly without
+searching through menus. For example, finding text in a file without
+shortcuts means opening the menu and clicking Find - whereas `Cmd + F`
+does the same thing in under a second.
+
+Shortcuts also reduce how often I need to switch between the keyboard and
+mouse. During coding, reaching for the mouse breaks focus and interrupts
+my train of thought. Actions like jumping to a file with `Cmd + P` or
+searching by keyword with `Cmd + F` each save only a few seconds, but
+repeated dozens of times throughout a day, the time saved becomes
+significant.

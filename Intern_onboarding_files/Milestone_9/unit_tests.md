@@ -8,3 +8,13 @@ Automated tests act as a safety net that continuously verifies existing function
 
 Because I familiar with backend developer, so I will try to found the functional test like boundary test, is the function work as I expected.
 However, in react native unit test, it is a UI test, don't know how to do it and what should I test. Another thing is the format and syntax.
+
+---
+
+# Testing React Components with Jest & React Testing Library
+
+## What are the benefits of using React Testing Library instead of testing implementation details?
+
+React Testing Library encourages tests that interact with components the same way a real user would — querying elements by visible text, ARIA roles, or labels rather than internal state, method names, or component structure. This means tests remain valid through internal refactors: as long as the rendered output and behaviour stay the same, the tests pass, which reduces false failures and keeps the test suite focused on what actually matters to the user.
+
+## What challenges did you encounter when simulating user interaction?

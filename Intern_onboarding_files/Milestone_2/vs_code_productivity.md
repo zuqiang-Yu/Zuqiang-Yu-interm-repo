@@ -31,7 +31,7 @@ The following are the shortcuts I often used at work
 The quick search in current file shortcut is the most useful one in my daily work.
 Cmd + F to search keyword in current file. quickly locate it.
 For example, I saw a method name in error message, then I can navigate to the file and using shortcuts to quickly locate in.
-The second one is `Option + Click` Add multiple cursors at each click position. If I write a duplicate code or change function/method I used in multiple lines.
+The second one is Option + Click Add multiple cursors at each click position. If I write a duplicate code or change function/method I used in multiple lines.
 
 # How can keyboard shortcuts improve your productivity?
 

@@ -1,5 +1,10 @@
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
 import PostList from '../../app/postlist';
+import i18n from '../../i18n';
+
+beforeAll(async () => {
+  await i18n.changeLanguage('en');
+});
 
 describe('PostList', () => {
   afterEach(() => {
@@ -10,7 +15,7 @@ describe('PostList', () => {
     jest.spyOn(global, 'fetch').mockImplementation(() => new Promise(() => {}));
 
     const { getByText } = render(<PostList />);
-    expect(getByText('loading...')).toBeTruthy();
+    expect(getByText('Loading...')).toBeTruthy();
   });
 
   it('sucess loading and display title', async () => {
@@ -29,7 +34,7 @@ describe('PostList', () => {
     jest.spyOn(global, 'fetch').mockRejectedValue(new Error('Network Error'));
 
     const { findByText } = render(<PostList />);
-    expect(await findByText('request failed, please retry it')).toBeTruthy();
+    expect(await findByText('Request failed, please retry')).toBeTruthy();
   });
 
   it('click retry button to send new request', async () => {
@@ -38,7 +43,7 @@ describe('PostList', () => {
       .mockRejectedValue(new Error('fail'));
 
     const { findByText } = render(<PostList />);
-    const retryButton = await findByText('retry');
+    const retryButton = await findByText('Retry');
 
     await waitFor(() => fireEvent.press(retryButton));
 
@@ -51,6 +56,6 @@ describe('PostList', () => {
     } as Response);
 
     const { findByText } = render(<PostList />);
-    expect(await findByText('request failed, please retry it')).toBeTruthy();
+    expect(await findByText('Request failed, please retry')).toBeTruthy();
   });
 });

@@ -7,7 +7,7 @@ describe('Counter', () => {
     expect(getByText('0')).toBeTruthy();
   });
 
-  it('press + number will incremental 1', () => {
+  it('press + number will increment by 1', () => {
     const { getByText } = render(<Counter />);
     fireEvent.press(getByText('+'));
     expect(getByText('1')).toBeTruthy();

@@ -54,20 +54,19 @@ Poor commit messages make it harder to understand the history of a project.
 
 ---
 
-# Understand git bisect #50: Reflection for usage of command git bisect
+# Understand git bisect #50: Reflection on using the git bisect command
 
 ## What does git bisect do?
 
-git bisect help programmer quickly found which commit produced this bug in 100 commits history.
+git bisect helps programmers quickly find which commit introduced a bug, even in a history of 100 commits.
 
 ## When would you use it in a real-world debugging situation?
 
-When two functions are merged from different branches into the dev branch. I discovered a bug that didn't exist before, a bug that didn't exist before these two functions were added. Since these two functions are rather complex, there are 100 commits. I will use git bisect to look for it
+Say two features from different branches are merged into the dev branch, and then I find a bug that didn't exist before they were added. Both features are fairly complex and together they add about 100 commits, so I would use git bisect to find the commit that caused the bug.
 
 ## How does it compare to manually reviewing commits?
 
-Some bug you cannot found with review commits message.
-Compare with manually switch commits to found bug. git bisect is convenient.
+Some bugs can't be found just by reading commit messages. And compared with manually checking out commits one by one to find a bug, git bisect is much more convenient and faster.
 
 ---
 

@@ -32,3 +32,15 @@ Mocking API calls keeps tests fast, deterministic, and isolated from external de
 ## What are some common pitfalls when testing asynchronous code?
 
 One of the most common pitfalls is making assertions before the async operation has resolved — forgetting to `await` a promise or omitting `waitFor` means the test checks the DOM or state too early and can pass falsely or miss the expected update entirely. Another frequent issue is not handling promise rejections properly, which can cause tests to silently fail or produce misleading error messages rather than clearly identifying what went wrong.
+
+---
+
+# Testing Redux with Jest #17
+
+## What was the most challenging part of testing Redux?
+
+The most challenging part was getting Jest to run with Redux Toolkit, not writing the tests themselves. First, I installed `@reduxjs/toolkit` in the repo root instead of my React Native project folder, so Jest picked up the wrong copy. Then I got a `SyntaxError: Unexpected token 'export'` from `immer`, because the Expo Jest preset loads immer's ESM build, which Jest does not transform. I fixed it by adding a `moduleNameMapper` that points `immer` to its CommonJS build. Testing the async thunk was also tricky, because I had to mock axios and `await` the dispatch before checking the state.
+
+## How do Redux tests differ from React component tests?
+
+Redux tests only check logic: I call the reducer directly with a state and an action, or dispatch a thunk to a real store, then check the new state. They don't render any UI, so they are faster and simpler to write. Component tests render the UI and act like a user, finding text on the screen and pressing buttons. In short, Redux tests check that the data changes correctly, and component tests check that the user sees and can use the right things.

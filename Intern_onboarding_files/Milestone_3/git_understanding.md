@@ -113,11 +113,24 @@ The command that surprised me most was `git checkout main -- <file/folder>`. I h
 
 The conflict occurred when two branches modified the same lines in the same file.
 
+In my test repo, I edited line 1 of `conflict-test.md` on two branches:
+
+- On `main`: "main branch update, and create a conlict"
+- On `main-conflict`: "conflict"
+
+When I merged `main-conflict` into `main`, Git couldn't decide which line to keep.
+
 ### How did you resolve it?
 
-I opened the conflicting file and looked at the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`). I compared both versions, then
-manually combined the changes, keeping my teammate's styling updates while also including my navigation link changes. After editing, I removed
-the conflict markers, staged the file with `git add`, and completed the merge with `git commit`.
+I used the Git tool built into PyCharm:
+
+1. Clicked "Merge 'main-conflict' into 'main'" in the branch menu, and the "Conflicts" window appeared.
+2. Selected `conflict-test.md` and clicked "Merge...".
+3. In the three-panel view, I accepted right and clicked "Apply".
+   Detail:
+   I opened the conflicting file and looked at the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`). I compared both versions, then
+   manually combined the changes, keeping my teammate's styling updates while also including my navigation link changes. After editing, I removed
+   the conflict markers, staged the file with `git add`, and completed the merge with `git commit`.
 
 ### What did you learn?
 

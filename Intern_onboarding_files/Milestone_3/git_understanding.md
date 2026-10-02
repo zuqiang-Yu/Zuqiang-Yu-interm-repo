@@ -154,3 +154,34 @@ We can create a new branch from any existing branch, which automatically "copies
 
 If two people edit the same file on different branches, they can both edit it freely and push to their own branches.
 However, when those two branches are merged into the main or dev branch, there will be a conflict, and a senior developer needs to resolve it.
+
+---
+
+---
+
+# Staging vs Committing
+
+## My experiment
+
+I created `staging-test.md` on a new branch `staging-practice`, added a second line, and tried each step in the terminal:
+
+1. After editing, `git status` showed the file under "Changes not staged for commit".
+2. After `git add staging-test.md`, it moved to "Changes to be committed".
+3. After `git reset HEAD staging-test.md`, it went back to "not staged", but my edit was still in the file.
+4. After `git add` and `git commit`, `git status` showed "nothing to commit, working tree clean", and `git log` showed my new commit `[hash]`.
+
+unstaging did not delete my changes, it only removed them from the next commit.
+
+## What is the difference between staging and committing?
+
+Staging (`git add`) puts changes into a waiting area called the staging area, which means "I want these changes in my next commit". Committing (`git commit`) takes everything in the staging area and saves it as a permanent snapshot in the project history, with a message.
+
+## Why does Git separate these two steps?
+
+It gives me control over what goes into each commit. I can edit many files but only commit the related changes together, so each commit stays small and focused. It also lets me review my changes before they become part of the history.
+
+## When would you want to stage changes without committing?
+
+- When I have changed several files, but only some of them belong to the same fix, so I stage those first and commit them separately.
+- When I want to stage a part that already works, and keep experimenting with the rest.
+- When I want to check exactly what will go into the commit with `git diff --staged` before committing.

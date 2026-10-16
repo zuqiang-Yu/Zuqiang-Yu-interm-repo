@@ -1,0 +1,7 @@
+{
+  "greeting": "¡Hola, Focus Bear!",
+  "welcome": "¡Bienvenido, {{name}}!",
+  "description": "Este mensaje está traducido con i18next.",
+  "switchLanguage": "Cambiar idioma",
+  "currentLanguage": "Idioma actual: {{lng}}"
+}

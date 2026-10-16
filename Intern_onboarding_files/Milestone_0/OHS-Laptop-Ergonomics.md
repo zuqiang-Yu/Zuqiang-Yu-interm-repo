@@ -37,7 +37,7 @@ Using a laptop on its own forces you into a poor position. The screen is too low
 
 ### What equipment changes can I make to improve my workspace?
 
-For my **Thursday WFH setup**, I will:
+For my **Thursday WFH setup**, I used:
 
 - Use an **external monitor, mouse and keyboard** so my wrists sit at a natural angle
 - Position my chair so my feet are flat on the floor and my back is supported
@@ -56,7 +56,7 @@ For my **Thursday WFH setup**, I will:
 
 ### How can I remind myself to maintain good posture and take breaks?
 
-I will use **Focus Bear** to schedule regular movement break reminders throughout the workday.
+I used **Focus Bear** to schedule regular movement break reminders throughout the workday.
 
 ---
 
@@ -74,13 +74,13 @@ When I work from home, I connect my laptop to an external monitor and use an App
 
 ### Equipment identified to improve posture and comfort
 
-- I will take my external keyboard and mouse to the library on Fridays.
+- I took my external keyboard and mouse to the library on Fridays.
 
 ### Movement break reminders - my full-day observations
 
-- **Date:** [the day you tested, for example 3 October 2026]
+- **Date:** 3 October 2026
 - **Reminder schedule:** In Focus Bear, I set 45 minutes of deep work followed by a 10-minute break.
-- **Breaks taken:** [number] breaks during the day
-- **What I did during breaks:** [for example: stood up, stretched my neck and shoulders, refilled my water]
-- **What improved:** [for example: my neck and shoulders felt less stiff at the end of the day, and I noticed when I started to slouch]
-- **What was hard:** [for example: I skipped one break because I was in the middle of debugging]
+- **Breaks taken:** 6 breaks during the day
+- **What I did during breaks:** stood up, stretched my neck and shoulders, refilled my water
+- **What improved:** my neck and shoulders felt less stiff at the end of the day, and I noticed when I started to slouch
+- **What was hard:** I skipped one break because I was in the middle of debugging
